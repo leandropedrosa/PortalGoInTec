@@ -99,12 +99,12 @@
 				player = new YT.Player('player', {				 
 				  height: '100%',
 				  width: '100%',
-				  videoId: 'gtSeB6Mp5oQ',
+				  videoId: '1qDexg5E4Vw',
 				  playerVars: { 'autoplay': 1, 'controls': 0, 'rel': 0, 'hd': 1, 'modestbranding': 1, 'loop': 1, 'showinfo':0, 'autohide': 1, 'disablekb': 1 },
 				  events: {
 					'onReady': onPlayerReady,
 					onStateChange: function(e){
-						var id = 'gtSeB6Mp5oQ';
+						var id = '1qDexg5E4Vw';
 						if(e.data === YT.PlayerState.ENDED){
 							player.loadVideoById(id);
 						}
